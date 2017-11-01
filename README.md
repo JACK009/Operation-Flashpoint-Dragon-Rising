@@ -24,7 +24,7 @@ In the main menu go to single Mission, look for mission editor missions, select 
 
 ### Allies&Enemies: ###
 
-Infinite waves of attacking.
+Infinite waves of attacking.<br />
 Creator: cRankface
 
 ![Screenshot](preview/Alies&Enemies/menu.jpg "Menu")
@@ -33,7 +33,7 @@ Creator: cRankface
 
 ### Bridge: ###
 
-Attack and defend a bridge.
+Attack and defend a bridge.<br />
 Creator: cRankface
 
 ![Screenshot](preview/Bridge/menu.jpg "Menu")
@@ -42,7 +42,7 @@ Creator: cRankface
 
 ### (Land) Defender: ###
 
-Attack and defend a bridge.
+Defend yourself against waves of enemies.<br />
 Creator: cRankface
 
 ![Screenshot](preview/Defender/menu.jpg "Menu")
@@ -51,7 +51,7 @@ Creator: cRankface
 
 ### Maxrandomness1: ###
 
-Random settings in a small town. Random enemies, time of day, spawn, artillery, kill limit. Easy to move other spawn locations in map editor.
+Random settings in a small town. Random enemies, time of day, spawn, artillery, kill limit. Easy to move other spawn locations in map editor.<br />
 Creator: J.A.C.K. 009
 
 ![Screenshot](preview/Maxrandomness1/menu.jpg "Menu")
@@ -60,11 +60,10 @@ Creator: J.A.C.K. 009
 
 ### Maxrandomness2: ###
 
-Random settings in a small town. Random enemies, time of day, spawn, artillery, kill limit. Easy to move other spawn locations in map editor.
+Random settings in a small town. Random enemies, time of day, spawn, artillery, kill limit. Easy to move other spawn locations in map editor.<br />
 Creator: J.A.C.K. 009
 
 ![Screenshot](preview/Maxrandomness2/map.jpg "map")
-![Screenshot](preview/Maxrandomness2/map1.jpg "map")
 ![Screenshot](preview/Maxrandomness2/map2.jpg "map")
 ![Screenshot](preview/Maxrandomness2/map3.jpg "map")
 ![Screenshot](preview/Maxrandomness2/map4.jpg "map")
@@ -72,7 +71,7 @@ Creator: J.A.C.K. 009
 
 ### Quarry: ###
 
-Eliminate all enemies.
+Eliminate all enemies.<br />
 Creator: J.A.C.K. 009
 
 ![Screenshot](preview/Quarry/menu.jpg "menu")
@@ -80,7 +79,7 @@ Creator: J.A.C.K. 009
 
 ### Ultimate randomness: ###
 
-Another version of Maxrandomness.
+Another version of Maxrandomness.<br />
 Creator: J.A.C.K. 009
 
 ![Screenshot](preview/Ultimate%20randomness/menu.jpg "menu")
