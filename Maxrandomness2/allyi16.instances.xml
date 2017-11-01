@@ -1,0 +1,112 @@
+<instances count="3">
+    <instance name="allyEch16" template="Echelon">
+        <overrides>
+            <values name="echelon" count="2">
+                <values name="ai" count="2">
+                    <value name="parentechelon" type="entityref" value="" />
+                    <value name="leadership" type="int32" value="0" />
+                </values>
+                <value name="echelontype" type="shortname" value="FireTeam" />
+            </values>
+            <values name="ofpentity" count="3">
+                <value name="uiname" type="shortname" value="#ofp_unitname_fireteam" />
+                <value name="uiartname" type="shortname" value="anti_tank" />
+                <value name="uiechelonname" type="dstring" value="#ofp_unitname_ft_antitank" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="iu19usatI3" template="iu19usat">
+        <overrides>
+            <values name="character" count="1">
+                <values name="persona" count="5">
+                    <value name="name" type="dstring" value="Moore" />
+                    <value name="rank" type="int32" value="2" />
+                    <value name="skintexture" type="dstring" value="c_head_cau_setG" />
+                    <value name="headmodel" type="dstring" value="c_head_cau_07" />
+                    <value name="voice" type="dstring" value="Marine05" />
+                </values>
+            </values>
+            <values name="groupmember" count="2">
+                <value name="groupname0" type="shortname" value="ally" />
+                <value name="groupname1" type="shortname" value="allygr16" />
+            </values>
+            <values name="id13" count="1">
+                <values name="ai" count="2">
+                    <value name="parentechelon" type="entityref" value="allyEch16" />
+                    <value name="leadership" type="int32" value="101" />
+                </values>
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="23615.1, 38, -5686.093" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="unitinfo" count="2">
+                <value name="isplayer" type="int32" value="0" />
+                <value name="controlmode" type="int32" value="0" />
+            </values>
+            <values name="inventory" count="1">
+                <values name="inventory" count="12">
+                    <value name="item00" type="shortname" value="am7clip45fmj" />
+                    <value name="item00count" type="int32" value="3" />
+                    <value name="item01" type="shortname" value="am30mag556fmj" />
+                    <value name="item01count" type="int32" value="7" />
+                    <value name="item02" type="shortname" value="ex01fraggren" />
+                    <value name="item02count" type="int32" value="1" />
+                    <value name="item03" type="shortname" value="ex69smawhef" />
+                    <value name="item03count" type="int32" value="1" />
+                    <value name="item04" type="shortname" value="ex68smawheat" />
+                    <value name="item04count" type="int32" value="2" />
+                    <value name="slotnvg" type="shortname" value="NVG" />
+                    <value name="slotnvgcount" type="int32" value="1" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="iu19usatI4" template="iu19usat">
+        <overrides>
+            <values name="character" count="1">
+                <values name="persona" count="5">
+                    <value name="name" type="dstring" value="Fray" />
+                    <value name="rank" type="int32" value="2" />
+                    <value name="skintexture" type="dstring" value="c_head_cau_setD" />
+                    <value name="headmodel" type="dstring" value="c_head_cau_04" />
+                    <value name="voice" type="dstring" value="Marine08" />
+                </values>
+            </values>
+            <values name="groupmember" count="2">
+                <value name="groupname0" type="shortname" value="ally" />
+                <value name="groupname1" type="shortname" value="allygr16" />
+            </values>
+            <values name="id13" count="1">
+                <values name="ai" count="2">
+                    <value name="parentechelon" type="entityref" value="allyEch16" />
+                    <value name="leadership" type="int32" value="100" />
+                </values>
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="23618.1, 38, -5686.093" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="unitinfo" count="2">
+                <value name="isplayer" type="int32" value="0" />
+                <value name="controlmode" type="int32" value="0" />
+            </values>
+            <values name="inventory" count="1">
+                <values name="inventory" count="12">
+                    <value name="item00" type="shortname" value="am7clip45fmj" />
+                    <value name="item00count" type="int32" value="3" />
+                    <value name="item01" type="shortname" value="am30mag556fmj" />
+                    <value name="item01count" type="int32" value="7" />
+                    <value name="item02" type="shortname" value="ex01fraggren" />
+                    <value name="item02count" type="int32" value="1" />
+                    <value name="item03" type="shortname" value="ex69smawhef" />
+                    <value name="item03count" type="int32" value="1" />
+                    <value name="item04" type="shortname" value="ex68smawheat" />
+                    <value name="item04count" type="int32" value="2" />
+                    <value name="slotnvg" type="shortname" value="NVG" />
+                    <value name="slotnvgcount" type="int32" value="1" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+</instances>

@@ -1,0 +1,7 @@
+<Mission>
+    <Arena X="16000" Y="-8000" Width="1500" Height="1500" HSubdivisions="5" VSubdivisions="5" WarningZoneSize="200" />
+    <NumPlayers Army="0" Playable="4" AI="0" />
+    <NumPlayers Army="1" Playable="0" AI="29" />
+    <NumPlayers Army="-1" Playable="0" AI="0" />
+    <AttackingArmy Army="0" />
+</Mission>

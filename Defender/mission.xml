@@ -1,0 +1,3 @@
+<mission>
+    <instances url="missions/%id%/startup.instances.xml" />
+</mission>

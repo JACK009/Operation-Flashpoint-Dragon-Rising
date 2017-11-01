@@ -1,0 +1,127 @@
+<Mission name="Allies &amp; Enemies" desc="Defend yourself from several incoming PLA invasions." img="" mapImg="" dateTime="2000/01/01 12:00:00" mpMode0="false" mpMode1="false" mpMode2="true" mpMode3="false" mpMode4="false" mpAttackingArmy="0" mpDesc="" playerName="Pinzon" playerRank="18">
+    <MissionData>
+        <MissionParam name="priObj1" value="" />
+        <MissionParam name="priObj2" value="" />
+        <MissionParam name="priObj3" value="" />
+        <MissionParam name="secObj1" value="" />
+        <MissionParam name="secObj2" value="" />
+        <MissionParam name="secObj3" value="" />
+        <MissionParam name="bonusObj" value="" />
+        <MissionParam name="friIntel" value="" />
+        <MissionParam name="enemIntel" value="" />
+        <MissionParam name="postDbr" value="" />
+        <MissionParam name="detailBr" value="" />
+        <MissionParam name="playerID" value="iu26ushsnip" />
+        <MissionParam name="mediumMortar" value="99" />
+        <MissionParam name="heavyMortar" value="99" />
+        <MissionParam name="howitzer" value="99" />
+        <MissionParam name="smallATG" value="99" />
+        <MissionParam name="largeATG" value="99" />
+        <MissionParam name="JDAM" value="99" />
+        <MissionParam name="weather" value="4" />
+        <MissionParam name="multiplayerMaxPlayers" value="16" />
+        <MissionParam name="dlcBitMask" value="0" />
+        <MissionParam name="playerPosition" value="25237.98, 50.85527, -12998.34" />
+        <MissionArea x1="14000" y1="-10000" x2="18000" y2="-6000" />
+    </MissionData>
+    <Setups>
+        <Setup name="" desc="">
+            <Platoon id="echelon" name="" uiName="#ofp_unitname_a_custom" uiArtName="blank" uiEchelonName="#ofp_unitname_fireteam" dummy="true">
+                <Squad id="echelon" name="" uiName="#ofp_unitname_a_custom" uiArtName="blank" uiEchelonName="#ofp_unitname_fireteam">
+                    <Fireteam id="echTeam" name="echTeam" templateID="Echelon" dummy="false" uiName="#ofp_unitname_a_custom" uiArtName="blank" uiEchelonName="#ofp_unitname_fireteam">
+                        <Soldier id="iu26ushsnip" name="Pinzon" templateID="iu26ushsnip" dummy="false" role="fireteamLeader" controlMode="player" rank="18" />
+                        <Soldier id="iu26ushsnipI1" name="Lee" templateID="iu26ushsnip" dummy="false" role="soldier" controlMode="mpplayable" rank="18" />
+                        <Soldier id="iu74usrflno" name="Berenyi" templateID="iu74usrflno" dummy="false" role="soldier" controlMode="mpplayable" rank="18" />
+                        <Soldier id="iu13usmed" name="Arenas" templateID="iu13usmed" dummy="false" role="soldier" controlMode="mpplayable" rank="18" />
+                        <Soldier id="iu12ushgren" name="Borchers" templateID="iu12ushgren" dummy="false" role="soldier" controlMode="mpplayable" rank="18" />
+                    </Fireteam>
+                </Squad>
+            </Platoon>
+            <CharacterLoadout>
+                <Soldier id="iu26ushsnip">
+                    <Weapon id="sa03mp5a4" />
+                    <Weapon id="sa02meusoc" />
+                    <Weapon id="sa55m107" />
+                    <Weapon id="sa63usknife" />
+                    <Equipment id="am7clip45fmj" amount="999" />
+                    <Equipment id="am10mag99fmj" amount="999" />
+                    <Equipment id="am30mag9fmj" amount="999" />
+                    <Equipment id="ex01fraggren" amount="999" />
+                    <Equipment id="ex02smoke" amount="999" />
+                    <Equipment id="ex09claymore" amount="999" />
+                    <Equipment id="NVG" amount="1" />
+                    <Equipment id="binoculars" amount="1" />
+                    <Equipment id="demoWeapon" amount="1" />
+                    <Equipment id="grenadeWeapon" amount="1" />
+                    <Equipment id="FieldDressingUS" amount="1" />
+                    <Equipment id="mineWeapon" amount="1" />
+                </Soldier>
+                <Soldier id="iu26ushsnipI1">
+                    <Weapon id="sa03mp5a4" />
+                    <Weapon id="sa02meusoc" />
+                    <Weapon id="sa55m107" />
+                    <Weapon id="sa63usknife" />
+                    <Equipment id="am7clip45fmj" amount="999" />
+                    <Equipment id="am10mag99fmj" amount="999" />
+                    <Equipment id="am30mag9fmj" amount="999" />
+                    <Equipment id="ex01fraggren" amount="999" />
+                    <Equipment id="ex02smoke" amount="999" />
+                    <Equipment id="ex09claymore" amount="999" />
+                    <Equipment id="NVG" amount="1" />
+                    <Equipment id="binoculars" amount="1" />
+                    <Equipment id="demoWeapon" amount="1" />
+                    <Equipment id="grenadeWeapon" amount="1" />
+                    <Equipment id="FieldDressingUS" amount="1" />
+                    <Equipment id="mineWeapon" amount="1" />
+                </Soldier>
+                <Soldier id="iu13usmed">
+                    <Weapon id="sa12m16a4" />
+                    <Weapon id="sa02meusoc" />
+                    <Weapon id="" />
+                    <Weapon id="sa63usknife" />
+                    <Equipment id="am7clip45fmj" amount="999" />
+                    <Equipment id="am30mag556fmj" amount="999" />
+                    <Equipment id="MediPac" amount="1" />
+                    <Equipment id="NVG" amount="1" />
+                    <Equipment id="binoculars" amount="1" />
+                    <Equipment id="demoWeapon" amount="1" />
+                    <Equipment id="grenadeWeapon" amount="1" />
+                    <Equipment id="mineWeapon" amount="1" />
+                </Soldier>
+                <Soldier id="iu12ushgren">
+                    <Weapon id="sa51m32" />
+                    <Weapon id="sa02meusoc" />
+                    <Weapon id="" />
+                    <Weapon id="sa63usknife" />
+                    <Equipment id="am7clip45fmj" amount="999" />
+                    <Equipment id="am6drum46he" amount="999" />
+                    <Equipment id="am6drum46hedp" amount="999" />
+                    <Equipment id="ex01fraggren" amount="999" />
+                    <Equipment id="ex02smoke" amount="999" />
+                    <Equipment id="NVG" amount="1" />
+                    <Equipment id="binoculars" amount="1" />
+                    <Equipment id="demoWeapon" amount="1" />
+                    <Equipment id="grenadeWeapon" amount="1" />
+                    <Equipment id="FieldDressingUS" amount="1" />
+                    <Equipment id="mineWeapon" amount="1" />
+                </Soldier>
+                <Soldier id="iu74usrflno">
+                    <Weapon id="sa22m4a1no" />
+                    <Weapon id="sa02meusoc" />
+                    <Weapon id="" />
+                    <Weapon id="sa63usknife" />
+                    <Equipment id="am7clip45fmj" amount="999" />
+                    <Equipment id="am30mag556fmj" amount="999" />
+                    <Equipment id="ex01fraggren" amount="999" />
+                    <Equipment id="ex02smoke" amount="999" />
+                    <Equipment id="NVG" amount="1" />
+                    <Equipment id="binoculars" amount="1" />
+                    <Equipment id="demoWeapon" amount="1" />
+                    <Equipment id="grenadeWeapon" amount="1" />
+                    <Equipment id="FieldDressingUS" amount="1" />
+                    <Equipment id="mineWeapon" amount="1" />
+                </Soldier>
+            </CharacterLoadout>
+        </Setup>
+    </Setups>
+</Mission>

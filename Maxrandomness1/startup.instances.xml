@@ -1,0 +1,1867 @@
+<instances count="123">
+    <instance name="Echelon" template="Echelon">
+        <overrides>
+            <values name="echelon" count="2">
+                <values name="ai" count="2">
+                    <value name="parentechelon" type="entityref" value="" />
+                    <value name="leadership" type="int32" value="0" />
+                </values>
+                <value name="echelontype" type="shortname" value="FireTeam" />
+            </values>
+            <values name="ofpentity" count="3">
+                <value name="uiname" type="shortname" value="#ofp_unitname_a_custom" />
+                <value name="uiartname" type="shortname" value="blank" />
+                <value name="uiechelonname" type="dstring" value="#ofp_unitname_fireteam" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="objective" template="objective">
+        <overrides>
+            <values name="id21" count="2">
+                <value name="m_position" type="vector3" value="17610.67, 85.05193, -8692.764" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id23" count="4">
+                <value name="visible" type="bool" value="True" />
+                <value name="linkedto" type="entityref" value="" />
+                <value name="armyidx" type="int32" value="0" />
+                <value name="type" type="int32" value="1" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="levelScript" template="levelScript">
+        <overrides>
+            <values name="levelscript" count="1">
+                <value name="scriptname" type="dstring" value="level" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="EnemyWaypoints" template="EntitySet">
+        <overrides />
+    </instance>
+    <instance name="enspawn1" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="enemywaypoint" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17554.78, 85.41136, -8849.452" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="enspawn2" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="enemywaypoint" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17505.49, 86.42995, -8832.197" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="enspawn3" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="enemywaypoint" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17595.45, 85.33238, -8857.861" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="AllyWaypoints" template="EntitySet">
+        <overrides />
+    </instance>
+    <instance name="spawnwp2" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="allyWaypoint" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17700.88, 87.50026, -8489.871" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="spawnwp1" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="allyWaypoint" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17660.68, 89.83661, -8478.137" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="spawnwp3" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="allyWaypoint" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17742.94, 81.92624, -8508.705" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="notset" template="EntitySet">
+        <overrides />
+    </instance>
+    <instance name="ml02uscrtsa" template="ml02uscrtsa">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17721.63, 86.09975, -8475.12" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="22">
+                    <value name="item00" type="shortname" value="am30mag556fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am20mag762fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am20mag762fmjs" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am7clip45fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex01fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex02smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="am30mag556sub" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am30mag9fmj" />
+                    <value name="item07count" type="int32" value="200" />
+                    <value name="item08" type="shortname" value="ex80irstrobe" />
+                    <value name="item08count" type="int32" value="200" />
+                    <value name="item09" type="shortname" value="ex68smawheat" />
+                    <value name="item09count" type="int32" value="200" />
+                    <value name="item10" type="shortname" value="ex69smawhef" />
+                    <value name="item10count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml02uscrtsa1" template="ml02uscrtsa1">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17721.51, 86.06712, -8476.301" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="8">
+                    <value name="item00" type="shortname" value="am20mag762fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am100box762fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am20mag762fmjs" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="ex13demchg" />
+                    <value name="item03count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml02uscrtsb" template="ml02uscrtsb">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17723.05, 85.73544, -8476.761" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml02uscrtsc" template="ml02uscrtsc">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17727.84, 84.60186, -8479.948" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="18">
+                    <value name="item00" type="shortname" value="am30mag556fmj" />
+                    <value name="item00count" type="int32" value="2" />
+                    <value name="item01" type="shortname" value="am20mag762fmj" />
+                    <value name="item01count" type="int32" value="2" />
+                    <value name="item02" type="shortname" value="am20mag762fmjs" />
+                    <value name="item02count" type="int32" value="2" />
+                    <value name="item03" type="shortname" value="am7clip45fmj" />
+                    <value name="item03count" type="int32" value="2" />
+                    <value name="item04" type="shortname" value="ex01fraggren" />
+                    <value name="item04count" type="int32" value="2" />
+                    <value name="item05" type="shortname" value="ex02smoke" />
+                    <value name="item05count" type="int32" value="2" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="1" />
+                    <value name="item07" type="shortname" value="am30mag9fmj" />
+                    <value name="item07count" type="int32" value="2" />
+                    <value name="item08" type="shortname" value="am30mag556sub" />
+                    <value name="item08count" type="int32" value="2" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml02uscrtsd" template="ml02uscrtsd">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17735.38, 83.11096, -8479.775" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml02uscrtspa" template="ml02uscrtspa">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17725.66, 84.99562, -8482.097" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="22">
+                    <value name="item00" type="shortname" value="am30mag556fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am20mag762fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am20mag762fmjs" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am7clip45fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex01fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex02smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am30mag9fmj" />
+                    <value name="item07count" type="int32" value="200" />
+                    <value name="item08" type="shortname" value="am30mag556sub" />
+                    <value name="item08count" type="int32" value="200" />
+                    <value name="item09" type="shortname" value="ex68smawheat" />
+                    <value name="item09count" type="int32" value="200" />
+                    <value name="item10" type="shortname" value="ex69smawhef" />
+                    <value name="item10count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml03uscrtwb" template="ml03uscrtwb">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17721.81, 85.83438, -8479.577" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml03uscrtwd" template="ml03uscrtwd">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17722.2, 86.66773, -8464.213" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml03uscrtwd1" template="ml03uscrtwd1">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17721.26, 86.48161, -8469.259" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="8">
+                    <value name="item00" type="shortname" value="ex73qw2sam" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="ex34hegren35" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="ex35hedpgren35" />
+                    <value name="item03count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml03uscrtwpa" template="ml03uscrtwpa">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17725.63, 85.23221, -8475.841" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml03uscrtwpa1" template="ml03uscrtwpa1">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17730.38, 84.10973, -8477.622" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="10">
+                    <value name="item00" type="shortname" value="ex67queenbee" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="ex67queenheat" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am30mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="ex34hegren35" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex35hedpgren35" />
+                    <value name="item04count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml07crdbxpla" template="ml07crdbxpla">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17725.57, 85.33572, -8474" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="18">
+                    <value name="item00" type="shortname" value="am30mag556fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am20mag762fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am20mag762fmjs" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am7clip45fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex01fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex02smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am30mag9fmj" />
+                    <value name="item07count" type="int32" value="200" />
+                    <value name="item08" type="shortname" value="am30mag556sub" />
+                    <value name="item08count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml07crdbxplc" template="ml07crdbxplc">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17730.51, 84.45839, -8468.839" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="14">
+                    <value name="item00" type="shortname" value="am10mag99fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag556fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="ex01fraggren" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="ex02smoke" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex09claymore" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex10apmine" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex11atmine" />
+                    <value name="item06count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml07crdbxpld" template="ml07crdbxpld">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17726.03, 85.39636, -8471.261" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="10">
+                    <value name="item00" type="shortname" value="ex49javelin" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag556fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="ex01fraggren" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="ex02smoke" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex13demchg" />
+                    <value name="item04count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml10uscrateb" template="ml10uscrateb">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17729.83, 84.44392, -8472.36" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="18">
+                    <value name="item00" type="shortname" value="am30mag556fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am20mag762fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am20mag762fmjs" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am7clip45fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex01fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex02smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am30mag9fmj" />
+                    <value name="item07count" type="int32" value="200" />
+                    <value name="item08" type="shortname" value="am30mag556sub" />
+                    <value name="item08count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml11plcratea" template="ml11plcratea">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17730.23, 84.41887, -8471.001" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml11plcrateb" template="ml11plcrateb">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17731.44, 83.93549, -8475.617" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml11plcratec" template="ml11plcratec">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17726.23, 85.50167, -8469" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml11plcratec1" template="ml11plcratec1">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17729.75, 85.06322, -8462.963" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="8">
+                    <value name="item00" type="shortname" value="am10mag58fmjs" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="ex34hegren35" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="ex35hedpgren35" />
+                    <value name="item03count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01I5" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17656.98, 88.26978, -8504.085" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml02uscrtsdI3" template="ml02uscrtsd">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17724.21, 86.71013, -8455.375" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml02uscrtspaI3" template="ml02uscrtspa">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17728.82, 85.57748, -8456.886" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="22">
+                    <value name="item00" type="shortname" value="am30mag556fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am20mag762fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am20mag762fmjs" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am7clip45fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex01fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex02smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am30mag9fmj" />
+                    <value name="item07count" type="int32" value="200" />
+                    <value name="item08" type="shortname" value="am30mag556sub" />
+                    <value name="item08count" type="int32" value="200" />
+                    <value name="item09" type="shortname" value="ex68smawheat" />
+                    <value name="item09count" type="int32" value="200" />
+                    <value name="item10" type="shortname" value="ex69smawhef" />
+                    <value name="item10count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml03uscrtwbI3" template="ml03uscrtwb">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17732.81, 84.45688, -8457.822" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml03uscrtwdI3" template="ml03uscrtwd">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17739.8, 82.51761, -8457.692" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml03uscrtwpa1I3" template="ml03uscrtwpa1">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17739.41, 82.83864, -8453.207" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="10">
+                    <value name="item00" type="shortname" value="ex67queenbee" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="ex67queenheat" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am30mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="ex34hegren35" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex35hedpgren35" />
+                    <value name="item04count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml03uscrtwpaI3" template="ml03uscrtwpa">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17733.55, 84.43396, -8454.604" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml02uscrtsbI3" template="ml02uscrtsb">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17729.73, 85.49541, -8454.177" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml02uscrtsa1I3" template="ml02uscrtsa1">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17723.9, 86.99045, -8452.127" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="8">
+                    <value name="item00" type="shortname" value="am20mag762fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am100box762fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am20mag762fmjs" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="ex13demchg" />
+                    <value name="item03count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml02uscrtsaI3" template="ml02uscrtsa">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17724.51, 87.10257, -8448.216" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="22">
+                    <value name="item00" type="shortname" value="am30mag556fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am20mag762fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am20mag762fmjs" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am7clip45fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex01fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex02smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="am30mag556sub" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am30mag9fmj" />
+                    <value name="item07count" type="int32" value="200" />
+                    <value name="item08" type="shortname" value="ex80irstrobe" />
+                    <value name="item08count" type="int32" value="200" />
+                    <value name="item09" type="shortname" value="ex68smawheat" />
+                    <value name="item09count" type="int32" value="200" />
+                    <value name="item10" type="shortname" value="ex69smawhef" />
+                    <value name="item10count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml07crdbxplaI3" template="ml07crdbxpla">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17743.55, 81.76106, -8445.853" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="18">
+                    <value name="item00" type="shortname" value="am30mag556fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am20mag762fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am20mag762fmjs" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am7clip45fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex01fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex02smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am30mag9fmj" />
+                    <value name="item07count" type="int32" value="200" />
+                    <value name="item08" type="shortname" value="am30mag556sub" />
+                    <value name="item08count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml07crdbxplcI3" template="ml07crdbxplc">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17735.26, 84.16805, -8450.437" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="14">
+                    <value name="item00" type="shortname" value="am10mag99fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag556fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="ex01fraggren" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="ex02smoke" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex09claymore" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex10apmine" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex11atmine" />
+                    <value name="item06count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml03uscrtwd1I3" template="ml03uscrtwd1">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17724.94, 87.13652, -8442.978" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="8">
+                    <value name="item00" type="shortname" value="ex73qw2sam" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="ex34hegren35" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="ex35hedpgren35" />
+                    <value name="item03count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml11plcratebI3" template="ml11plcrateb">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17731.51, 85.44733, -8441.49" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml07crdbxpldI3" template="ml07crdbxpld">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17737.68, 83.46259, -8441.661" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="10">
+                    <value name="item00" type="shortname" value="ex49javelin" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag556fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="ex01fraggren" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="ex02smoke" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex13demchg" />
+                    <value name="item04count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml11plcratecI3" template="ml11plcratec">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17742.72, 81.98829, -8449.216" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml11plcratec1I3" template="ml11plcratec1">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17731.34, 85.37332, -8448.379" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="8">
+                    <value name="item00" type="shortname" value="am10mag58fmjs" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="ex34hegren35" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="ex35hedpgren35" />
+                    <value name="item03count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml11plcrateaI3" template="ml11plcratea">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17738.05, 83.38206, -8446.793" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am30mag76fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am50mag58fmj" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am15clip9fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex14fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex15smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am10mag58fmjs" />
+                    <value name="item07count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ml10uscratebI3" template="ml10uscrateb">
+        <overrides>
+            <values name="id1" count="2">
+                <value name="m_position" type="vector3" value="17733.19, 84.89267, -8444.834" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="id4" count="1">
+                <values name="inventory" count="18">
+                    <value name="item00" type="shortname" value="am30mag556fmj" />
+                    <value name="item00count" type="int32" value="200" />
+                    <value name="item01" type="shortname" value="am20mag762fmj" />
+                    <value name="item01count" type="int32" value="200" />
+                    <value name="item02" type="shortname" value="am20mag762fmjs" />
+                    <value name="item02count" type="int32" value="200" />
+                    <value name="item03" type="shortname" value="am7clip45fmj" />
+                    <value name="item03count" type="int32" value="200" />
+                    <value name="item04" type="shortname" value="ex01fraggren" />
+                    <value name="item04count" type="int32" value="200" />
+                    <value name="item05" type="shortname" value="ex02smoke" />
+                    <value name="item05count" type="int32" value="200" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="200" />
+                    <value name="item07" type="shortname" value="am30mag9fmj" />
+                    <value name="item07count" type="int32" value="200" />
+                    <value name="item08" type="shortname" value="am30mag556sub" />
+                    <value name="item08count" type="int32" value="200" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17566.69, 84.77472, -8839.536" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I1" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17565.85, 85.00966, -8823.352" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I2" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17555.79, 84.98312, -8826.534" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I3" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17547.36, 85.35826, -8833.241" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I4" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17538.85, 85.69516, -8824.47" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I5" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17534.21, 85.45162, -8814.149" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I6" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17518.47, 85.76048, -8812.516" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I7" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17575.22, 84.65695, -8832.381" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I8" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17581.24, 84.63815, -8843.904" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I9" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17588.04, 84.46516, -8829.888" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I10" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17547.62, 85.40118, -8816.042" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I11" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17595.09, 84.61758, -8840.638" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I12" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17605.49, 84.29247, -8829.458" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I13" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17577.27, 84.89032, -8822.256" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17632.54, 89.37616, -8496.454" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01I1" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17670.56, 86.26022, -8513.42" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01I2" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17671.17, 87.44902, -8497.444" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01I3" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17686.78, 84.55072, -8521.716" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01I4" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17685.54, 86.50552, -8505.741" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01I6" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17701.64, 85.16211, -8513.296" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01I7" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17705.35, 83.34122, -8528.402" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01I8" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17718.73, 83.37503, -8520.849" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01I9" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17719.47, 82.38162, -8534.719" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01I10" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17732.97, 81.97249, -8528.65" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01I11" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17732.84, 81.10071, -8541.901" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01I12" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17655.94, 89.56095, -8489.147" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd16empla01I13" template="bd16empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17644.18, 89.84769, -8496.701" />
+                <value name="m_orientation" type="quat" value="0, 0.9832355, 0, -0.1823404" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I14" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17523.87, 85.9192, -8825.196" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I15" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17510.47, 87.01178, -8804.354" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I16" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17508.42, 86.63409, -8819.761" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I17" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17601.89, 85.00552, -8849.292" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I18" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17617.81, 84.64702, -8835.426" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="bd18empla01I19" template="bd18empla01">
+        <overrides>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17611.39, 84.88234, -8842.357" />
+                <value name="m_orientation" type="quat" value="0, 0.1624849, 0, 0.986711" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="enspawn3I1" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="enemywaypoint" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17853.84, 154.7798, -8993.416" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="AllyMoveWp" template="EntitySet">
+        <overrides />
+    </instance>
+    <instance name="movewp2" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="allyMoveWp" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17532.27, 85.32594, -8727.169" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="movewp1" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="allyMoveWp" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17649.25, 85.36205, -8738.717" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="movewp3" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="allyMoveWp" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17597.2, 85.04063, -8721.509" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="EnemyMoveWp" template="EntitySet">
+        <overrides />
+    </instance>
+    <instance name="enMoveWp3" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="enemyMoveWp" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17679.97, 85.22292, -8659.936" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="enMoveWp2" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="enemyMoveWp" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17626.72, 85.16707, -8644.849" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="enMoveWp1" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="enemyMoveWp" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17570.82, 85.09733, -8636.418" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="Artillerywp" template="EntitySet">
+        <overrides />
+    </instance>
+    <instance name="artwp1" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="artillerywp" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17569.31, 84.51459, -8728.91" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="artwp2" template="waypoint">
+        <overrides>
+            <values name="groupmember" count="1">
+                <value name="groupname0" type="shortname" value="artillerywp" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17635.88, 84.99626, -8662.361" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="offboardSupport" template="offboardSupport">
+        <overrides>
+            <values name="id1" count="6">
+                <value name="heavymortar" type="int32" value="0" />
+                <value name="howitzer" type="int32" value="0" />
+                <value name="jdam" type="int32" value="0" />
+                <value name="largemissile" type="int32" value="0" />
+                <value name="mortar" type="int32" value="0" />
+                <value name="smallmissile" type="int32" value="0" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="hidalgosnip" template="hidalgosnip">
+        <overrides>
+            <values name="character" count="1">
+                <values name="persona" count="5">
+                    <value name="name" type="dstring" value="O'Connor" />
+                    <value name="rank" type="int32" value="18" />
+                    <value name="skintexture" type="dstring" value="c_head_cau_setF" />
+                    <value name="headmodel" type="dstring" value="c_head_cau_06" />
+                    <value name="voice" type="dstring" value="Marine04" />
+                </values>
+            </values>
+            <values name="id13" count="1">
+                <values name="ai" count="2">
+                    <value name="parentechelon" type="entityref" value="Echelon" />
+                    <value name="leadership" type="int32" value="104" />
+                </values>
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17744.45, 82.05104, -8476.477" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="unitinfo" count="2">
+                <value name="isplayer" type="int32" value="1" />
+                <value name="controlmode" type="int32" value="2" />
+            </values>
+            <values name="inventory" count="1">
+                <values name="inventory" count="16">
+                    <value name="item00" type="shortname" value="am7clip45fmj" />
+                    <value name="item00count" type="int32" value="999" />
+                    <value name="item01" type="shortname" value="am10mag99fmj" />
+                    <value name="item01count" type="int32" value="999" />
+                    <value name="item02" type="shortname" value="am30mag9fmj" />
+                    <value name="item02count" type="int32" value="999" />
+                    <value name="item04" type="shortname" value="ex01fraggren" />
+                    <value name="item04count" type="int32" value="999" />
+                    <value name="item05" type="shortname" value="ex02smoke" />
+                    <value name="item05count" type="int32" value="999" />
+                    <value name="item06" type="shortname" value="ex80irstrobe" />
+                    <value name="item06count" type="int32" value="999" />
+                    <value name="item07" type="shortname" value="ex13demchg" />
+                    <value name="item07count" type="int32" value="999" />
+                    <value name="slotnvg" type="shortname" value="NVG" />
+                    <value name="slotnvgcount" type="int32" value="1" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="huntermark" template="huntermark">
+        <overrides>
+            <values name="character" count="1">
+                <values name="persona" count="5">
+                    <value name="name" type="dstring" value="Mitchell" />
+                    <value name="rank" type="int32" value="18" />
+                    <value name="skintexture" type="dstring" value="c_head_blk_setA" />
+                    <value name="headmodel" type="dstring" value="c_head_blk_01" />
+                    <value name="voice" type="dstring" value="Marine09" />
+                </values>
+            </values>
+            <values name="id13" count="1">
+                <values name="ai" count="2">
+                    <value name="parentechelon" type="entityref" value="Echelon" />
+                    <value name="leadership" type="int32" value="203" />
+                </values>
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17739.64, 82.43338, -8473.332" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="unitinfo" count="2">
+                <value name="isplayer" type="int32" value="1" />
+                <value name="controlmode" type="int32" value="2" />
+            </values>
+            <values name="inventory" count="1">
+                <values name="inventory" count="12">
+                    <value name="item00" type="shortname" value="am7clip45fmj" />
+                    <value name="item00count" type="int32" value="999" />
+                    <value name="item01" type="shortname" value="am30mag556fmj" />
+                    <value name="item01count" type="int32" value="999" />
+                    <value name="item02" type="shortname" value="ex01fraggren" />
+                    <value name="item02count" type="int32" value="999" />
+                    <value name="item03" type="shortname" value="ex02smoke" />
+                    <value name="item03count" type="int32" value="999" />
+                    <value name="item04" type="shortname" value="ex80irstrobe" />
+                    <value name="item04count" type="int32" value="999" />
+                    <value name="slotnvg" type="shortname" value="NVG" />
+                    <value name="slotnvgcount" type="int32" value="1" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="iu12ushgren" template="iu12ushgren">
+        <overrides>
+            <values name="character" count="1">
+                <values name="persona" count="5">
+                    <value name="name" type="dstring" value="Kern" />
+                    <value name="rank" type="int32" value="18" />
+                    <value name="skintexture" type="dstring" value="c_head_cau_setA" />
+                    <value name="headmodel" type="dstring" value="c_head_cau_01" />
+                    <value name="voice" type="dstring" value="Marine02" />
+                </values>
+            </values>
+            <values name="id13" count="1">
+                <values name="ai" count="2">
+                    <value name="parentechelon" type="entityref" value="Echelon" />
+                    <value name="leadership" type="int32" value="102" />
+                </values>
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17746.31, 81.71909, -8474.195" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="unitinfo" count="2">
+                <value name="isplayer" type="int32" value="1" />
+                <value name="controlmode" type="int32" value="2" />
+            </values>
+            <values name="inventory" count="1">
+                <values name="inventory" count="12">
+                    <value name="item00" type="shortname" value="am7clip45fmj" />
+                    <value name="item00count" type="int32" value="999" />
+                    <value name="item01" type="shortname" value="am6drum46he" />
+                    <value name="item01count" type="int32" value="999" />
+                    <value name="item02" type="shortname" value="am6drum46hedp" />
+                    <value name="item02count" type="int32" value="999" />
+                    <value name="item03" type="shortname" value="ex01fraggren" />
+                    <value name="item03count" type="int32" value="999" />
+                    <value name="item04" type="shortname" value="ex02smoke" />
+                    <value name="item04count" type="int32" value="999" />
+                    <value name="slotnvg" type="shortname" value="NVG" />
+                    <value name="slotnvgcount" type="int32" value="1" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="iu48ussfsnipI3" template="iu48ussfsnip">
+        <overrides>
+            <values name="character" count="1">
+                <values name="persona" count="5">
+                    <value name="name" type="dstring" value="Gregory" />
+                    <value name="rank" type="int32" value="18" />
+                    <value name="skintexture" type="dstring" value="c_head_blk_setA" />
+                    <value name="headmodel" type="dstring" value="c_head_blk_01" />
+                    <value name="voice" type="dstring" value="Marine08" />
+                </values>
+            </values>
+            <values name="id13" count="1">
+                <values name="ai" count="2">
+                    <value name="parentechelon" type="entityref" value="Echelon" />
+                    <value name="leadership" type="int32" value="101" />
+                </values>
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17741.2, 82.19633, -8470.566" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="unitinfo" count="2">
+                <value name="isplayer" type="int32" value="1" />
+                <value name="controlmode" type="int32" value="2" />
+            </values>
+            <values name="inventory" count="1">
+                <values name="inventory" count="14">
+                    <value name="item00" type="shortname" value="am7clip45fmj" />
+                    <value name="item00count" type="int32" value="999" />
+                    <value name="item01" type="shortname" value="am20mag762fmjs" />
+                    <value name="item01count" type="int32" value="999" />
+                    <value name="item02" type="shortname" value="am30mag9fmj" />
+                    <value name="item02count" type="int32" value="999" />
+                    <value name="item03" type="shortname" value="ex01fraggren" />
+                    <value name="item03count" type="int32" value="999" />
+                    <value name="item04" type="shortname" value="ex02smoke" />
+                    <value name="item04count" type="int32" value="999" />
+                    <value name="item05" type="shortname" value="ex09claymore" />
+                    <value name="item05count" type="int32" value="999" />
+                    <value name="slotnvg" type="shortname" value="NVG" />
+                    <value name="slotnvgcount" type="int32" value="1" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="iu49ussfhsnip" template="iu49ussfhsnip">
+        <overrides>
+            <values name="character" count="1">
+                <values name="persona" count="5">
+                    <value name="name" type="dstring" value="Marshall" />
+                    <value name="rank" type="int32" value="18" />
+                    <value name="skintexture" type="dstring" value="c_head_cut_masters" />
+                    <value name="headmodel" type="dstring" value="c_head_cut_masters" />
+                    <value name="voice" type="dstring" value="Hunter" />
+                </values>
+            </values>
+            <values name="id13" count="1">
+                <values name="ai" count="2">
+                    <value name="parentechelon" type="entityref" value="Echelon" />
+                    <value name="leadership" type="int32" value="100000" />
+                </values>
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17744.13, 81.78289, -8470.566" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="unitinfo" count="2">
+                <value name="isplayer" type="int32" value="1" />
+                <value name="controlmode" type="int32" value="1" />
+            </values>
+            <values name="inventory" count="1">
+                <values name="inventory" count="14">
+                    <value name="item00" type="shortname" value="am7clip45fmj" />
+                    <value name="item00count" type="int32" value="999" />
+                    <value name="item01" type="shortname" value="am10mag99fmj" />
+                    <value name="item01count" type="int32" value="999" />
+                    <value name="item02" type="shortname" value="am30mag9fmj" />
+                    <value name="item02count" type="int32" value="999" />
+                    <value name="item03" type="shortname" value="ex01fraggren" />
+                    <value name="item03count" type="int32" value="999" />
+                    <value name="item04" type="shortname" value="ex02smoke" />
+                    <value name="item04count" type="int32" value="999" />
+                    <value name="item05" type="shortname" value="ex09claymore" />
+                    <value name="item05count" type="int32" value="999" />
+                    <value name="slotnvg" type="shortname" value="NVG" />
+                    <value name="slotnvgcount" type="int32" value="1" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance1" template="waypointsScript">
+        <overrides>
+            <values name="levelscript" count="1">
+                <value name="scriptname" type="dstring" value="waypoints" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance2" template="BuildingCONC">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance3" template="BuildingMETL">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance4" template="Audio">
+        <overrides />
+    </instance>
+    <instance name="autoinstance5" template="MunitionManager">
+        <overrides />
+    </instance>
+    <instance name="autoinstance6" template="USMC">
+        <overrides />
+    </instance>
+    <instance name="autoinstance7" template="PLA">
+        <overrides />
+    </instance>
+    <instance name="autoinstance8" template="NeutralArmy">
+        <overrides />
+    </instance>
+    <instance name="player1" template="player">
+        <overrides>
+            <values name="playerplug" count="1">
+                <value name="pluggedsocket" type="shortname" value="iu49ussfhsnip" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance9" template="debugCamera">
+        <overrides />
+    </instance>
+    <instance name="autoinstance10" template="BuildingWOOD">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance11" template="BarrierBRIK">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance12" template="BarrierSNDB">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance13" template="AssetJUNK">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance14" template="BarrelFUEL">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance15" template="VehicleMETL">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance16" template="AssetLIGHT">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance17" template="AssetFENCE">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance18" template="MetalBlast2m">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance19" template="MetalBlast5m">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance20" template="MetalBlast10m">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="autoinstance21" template="MetalBlast25m">
+        <overrides>
+            <values name="id2" count="2">
+                <value name="m_position" type="vector3" value="0, 40, 0" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+        </overrides>
+    </instance>
+</instances>

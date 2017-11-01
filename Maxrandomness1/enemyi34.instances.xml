@@ -1,0 +1,67 @@
+<instances count="2">
+    <instance name="enemyech34" template="Echelon">
+        <overrides>
+            <values name="echelon" count="2">
+                <values name="ai" count="2">
+                    <value name="parentechelon" type="entityref" value="" />
+                    <value name="leadership" type="int32" value="0" />
+                </values>
+                <value name="echelontype" type="shortname" value="FireTeam" />
+            </values>
+            <values name="ofpentity" count="3">
+                <value name="uiname" type="shortname" value="#ofp_unitname_fireteam" />
+                <value name="uiartname" type="shortname" value="hq" />
+                <value name="uiechelonname" type="dstring" value="#ofp_unitname_ft_squadcmd" />
+            </values>
+        </overrides>
+    </instance>
+    <instance name="ip04plsldr" template="ip04plsldr">
+        <overrides>
+            <values name="character" count="1">
+                <values name="persona" count="5">
+                    <value name="name" type="dstring" value="Jianzheng" />
+                    <value name="rank" type="int32" value="4" />
+                    <value name="skintexture" type="dstring" value="c_head_asn_setG" />
+                    <value name="headmodel" type="dstring" value="c_head_asn_07" />
+                    <value name="voice" type="dstring" value="pla4" />
+                </values>
+            </values>
+            <values name="groupmember" count="2">
+                <value name="groupname0" type="shortname" value="enemy" />
+                <value name="groupname1" type="shortname" value="enemygr34" />
+            </values>
+            <values name="id13" count="1">
+                <values name="ai" count="2">
+                    <value name="parentechelon" type="entityref" value="enemyech34" />
+                    <value name="leadership" type="int32" value="300" />
+                </values>
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17721, 138.439, -9122.745" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="unitinfo" count="2">
+                <value name="isplayer" type="int32" value="0" />
+                <value name="controlmode" type="int32" value="0" />
+            </values>
+            <values name="inventory" count="1">
+                <values name="inventory" count="14">
+                    <value name="item00" type="shortname" value="am15clip9fmj" />
+                    <value name="item00count" type="int32" value="3" />
+                    <value name="item01" type="shortname" value="am30mag58fmj" />
+                    <value name="item01count" type="int32" value="7" />
+                    <value name="item02" type="shortname" value="ex14fraggren" />
+                    <value name="item02count" type="int32" value="1" />
+                    <value name="item03" type="shortname" value="ex15smoke" />
+                    <value name="item03count" type="int32" value="1" />
+                    <value name="item04" type="shortname" value="ex18smokeyell" />
+                    <value name="item04count" type="int32" value="1" />
+                    <value name="item05" type="shortname" value="ex80irstrobe" />
+                    <value name="item05count" type="int32" value="3" />
+                    <value name="slotnvg" type="shortname" value="NVG" />
+                    <value name="slotnvgcount" type="int32" value="1" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+</instances>

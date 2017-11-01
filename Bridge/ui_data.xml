@@ -1,0 +1,105 @@
+<Mission name="Under The Bridge" desc="Kill all PLA enemies beside the bridge." img="" mapImg="" dateTime="2000/01/01 12:00:00" mpMode0="false" mpMode1="false" mpMode2="true" mpMode3="false" mpMode4="false" mpAttackingArmy="0" mpDesc="" playerName="Ellis" playerRank="18">
+    <MissionData>
+        <MissionObj id="objective" value="Capture and defend the bridge." gameValue="Capture and defend the bridge." xPos="14001.1" yPos="-10105.06" visibility="true" />
+        <MissionParam name="priObj1" value="objective" />
+        <MissionParam name="priObj2" value="" />
+        <MissionParam name="priObj3" value="" />
+        <MissionParam name="secObj1" value="" />
+        <MissionParam name="secObj2" value="" />
+        <MissionParam name="secObj3" value="" />
+        <MissionParam name="bonusObj" value="" />
+        <MissionParam name="friIntel" value="#ofp_missint_defaultf" />
+        <MissionParam name="enemIntel" value="#ofp_missint_defaulte" />
+        <MissionParam name="postDbr" value="#ofp_missdeb_default" />
+        <MissionParam name="detailBr" value="#ofp_missbrief_default" />
+        <MissionParam name="playerID" value="iu26ushsnip" />
+        <MissionParam name="weather" value="2" />
+        <MissionParam name="multiplayerMaxPlayers" value="16" />
+        <MissionParam name="dlcBitMask" value="0" />
+        <MissionParam name="playerPosition" value="13797.05, 109.1915, -10145.62" />
+        <MissionArea x1="14000" y1="-10000" x2="18000" y2="-6000" />
+    </MissionData>
+    <Setups>
+        <Setup name="" desc="">
+            <Platoon id="echelon" name="" uiName="#ofp_unitname_a_custom" uiArtName="blank" uiEchelonName="#ofp_unitname_fireteam" dummy="true">
+                <Squad id="echelon" name="" uiName="#ofp_unitname_a_custom" uiArtName="blank" uiEchelonName="#ofp_unitname_fireteam">
+                    <Fireteam id="EchelonI1" name="EchelonI1" templateID="Echelon" dummy="false" uiName="#ofp_unitname_a_custom" uiArtName="blank" uiEchelonName="#ofp_unitname_fireteam">
+                        <Soldier id="iu26ushsnip" name="Ellis" templateID="iu26ushsnip" dummy="false" role="fireteamLeader" controlMode="player" rank="18" />
+                        <Soldier id="iu26ushsnipI1" name="Black" templateID="iu26ushsnip" dummy="false" role="soldier" controlMode="mpplayable" rank="18" />
+                        <Soldier id="iu13usmed" name="Newberg" templateID="iu13usmed" dummy="false" role="soldier" controlMode="mpplayable" rank="18" />
+                        <Soldier id="iu12ushgren" name="Berwick" templateID="iu12ushgren" dummy="false" role="soldier" controlMode="mpplayable" rank="18" />
+                    </Fireteam>
+                </Squad>
+            </Platoon>
+            <CharacterLoadout>
+                <Soldier id="iu26ushsnip">
+                    <Weapon id="sa03mp5a4" />
+                    <Weapon id="sa02meusoc" />
+                    <Weapon id="sa55m107" />
+                    <Weapon id="sa63usknife" />
+                    <Equipment id="am7clip45fmj" amount="3" />
+                    <Equipment id="am10mag99fmj" amount="7" />
+                    <Equipment id="am30mag9fmj" amount="5" />
+                    <Equipment id="ex01fraggren" amount="1" />
+                    <Equipment id="ex02smoke" amount="1" />
+                    <Equipment id="ex09claymore" amount="2" />
+                    <Equipment id="NVG" amount="1" />
+                    <Equipment id="binoculars" amount="1" />
+                    <Equipment id="demoWeapon" amount="1" />
+                    <Equipment id="grenadeWeapon" amount="1" />
+                    <Equipment id="FieldDressingUS" amount="1" />
+                    <Equipment id="mineWeapon" amount="1" />
+                </Soldier>
+                <Soldier id="iu26ushsnipI1">
+                    <Weapon id="sa03mp5a4" />
+                    <Weapon id="sa02meusoc" />
+                    <Weapon id="sa55m107" />
+                    <Weapon id="sa63usknife" />
+                    <Equipment id="am7clip45fmj" amount="3" />
+                    <Equipment id="am10mag99fmj" amount="7" />
+                    <Equipment id="am30mag9fmj" amount="5" />
+                    <Equipment id="ex01fraggren" amount="1" />
+                    <Equipment id="ex02smoke" amount="1" />
+                    <Equipment id="ex09claymore" amount="2" />
+                    <Equipment id="NVG" amount="1" />
+                    <Equipment id="binoculars" amount="1" />
+                    <Equipment id="demoWeapon" amount="1" />
+                    <Equipment id="grenadeWeapon" amount="1" />
+                    <Equipment id="FieldDressingUS" amount="1" />
+                    <Equipment id="mineWeapon" amount="1" />
+                </Soldier>
+                <Soldier id="iu13usmed">
+                    <Weapon id="sa12m16a4" />
+                    <Weapon id="sa02meusoc" />
+                    <Weapon id="" />
+                    <Weapon id="sa63usknife" />
+                    <Equipment id="am7clip45fmj" amount="3" />
+                    <Equipment id="am30mag556fmj" amount="7" />
+                    <Equipment id="MediPac" amount="1" />
+                    <Equipment id="NVG" amount="1" />
+                    <Equipment id="binoculars" amount="1" />
+                    <Equipment id="demoWeapon" amount="1" />
+                    <Equipment id="grenadeWeapon" amount="1" />
+                    <Equipment id="mineWeapon" amount="1" />
+                </Soldier>
+                <Soldier id="iu12ushgren">
+                    <Weapon id="sa51m32" />
+                    <Weapon id="sa02meusoc" />
+                    <Weapon id="" />
+                    <Weapon id="sa63usknife" />
+                    <Equipment id="am7clip45fmj" amount="3" />
+                    <Equipment id="am6drum46he" amount="3" />
+                    <Equipment id="am6drum46hedp" amount="1" />
+                    <Equipment id="ex01fraggren" amount="2" />
+                    <Equipment id="ex02smoke" amount="1" />
+                    <Equipment id="NVG" amount="1" />
+                    <Equipment id="binoculars" amount="1" />
+                    <Equipment id="demoWeapon" amount="1" />
+                    <Equipment id="grenadeWeapon" amount="1" />
+                    <Equipment id="FieldDressingUS" amount="1" />
+                    <Equipment id="mineWeapon" amount="1" />
+                </Soldier>
+            </CharacterLoadout>
+        </Setup>
+    </Setups>
+</Mission>

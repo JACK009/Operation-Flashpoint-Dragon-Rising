@@ -1,0 +1,48 @@
+<instances count="1">
+    <instance name="vu25mh60s" template="vu25mh60s">
+        <overrides>
+            <values name="id4" count="2">
+                <value name="groupname0" type="shortname" value="ally" />
+                <value name="groupname1" type="shortname" value="allyvh8" />
+            </values>
+            <values name="transform" count="2">
+                <value name="m_position" type="vector3" value="17927.21, 61.69802, -8035.042" />
+                <value name="m_orientation" type="quat" value="0, 1, 0, -4.371139E-08" />
+            </values>
+            <values name="vehiclemount" count="3">
+                <values name="crew" count="4">
+                    <value name="gunner" type="entityref" value="" />
+                    <value name="gunner2" type="entityref" value="" />
+                    <value name="pilot" type="entityref" value="" />
+                    <value name="copilot" type="entityref" value="" />
+                </values>
+                <values name="passengers" count="12">
+                    <value name="troop01" type="entityref" value="" />
+                    <value name="troop02" type="entityref" value="" />
+                    <value name="troop03" type="entityref" value="" />
+                    <value name="troop04" type="entityref" value="" />
+                    <value name="troop05" type="entityref" value="" />
+                    <value name="troop06" type="entityref" value="" />
+                    <value name="troop07" type="entityref" value="" />
+                    <value name="troop08" type="entityref" value="" />
+                    <value name="troop09" type="entityref" value="" />
+                    <value name="troop10" type="entityref" value="" />
+                    <value name="troop11" type="entityref" value="" />
+                    <value name="troop12" type="entityref" value="" />
+                </values>
+                <value name="hasvirtualcrew" type="bool" value="False" />
+            </values>
+            <values name="ofpentity" count="1">
+                <value name="movingatstart" type="bool" value="False" />
+            </values>
+            <values name="inventory" count="1">
+                <values name="inventory" count="4">
+                    <value name="item00" type="shortname" value="am5000belt762b" />
+                    <value name="item00count" type="int32" value="1" />
+                    <value name="item01" type="shortname" value="am5000belt762b" />
+                    <value name="item01count" type="int32" value="1" />
+                </values>
+            </values>
+        </overrides>
+    </instance>
+</instances>
